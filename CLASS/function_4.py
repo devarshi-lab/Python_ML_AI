@@ -1,0 +1,9 @@
+no1 = int(input("Enter first number : "))
+no2 = int(input("Enter second number : "))
+ans = no1 * no2
+print("multiplication is : ",ans)
+###########################################
+no1 = int(input("Enter first number : "))
+no2 = int(input("Enter second number : "))
+ans = no1 * no2
+print("multiplication is : ",ans)
