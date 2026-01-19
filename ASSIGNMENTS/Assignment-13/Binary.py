@@ -2,8 +2,10 @@
 
 def binary(no):
     binary = ""
+    binaryArray = []
     while(no>0):
         binary += str(no % 2)
+        # binaryArray.append( str(no % 2))
         no = int(no / 2) 
         # if(no % 2 == 0):
         #     binary += ("0")
@@ -11,6 +13,7 @@ def binary(no):
         # else:
         #     binary += ("1")
         #     no = int(no / 2)
+    # binaryArray.reverse()
     return (binary[::-1])
 
 def main():
