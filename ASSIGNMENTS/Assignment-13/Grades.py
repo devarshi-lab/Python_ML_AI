@@ -1,13 +1,8 @@
 #  Write a program which accepts marks and displays grade.
-
 # Condition Example:
-
 # ≥ 75 -> Distinction
-
 # ≥ 60 -+ First Class
-
 # ≥ 50 -+ Second Class
-
 # <50 -+ Fail
 
 def Grade(marks):
