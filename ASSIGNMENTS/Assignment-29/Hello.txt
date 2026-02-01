@@ -1,0 +1,2 @@
+Python has become the dominant programming language for AI and machine learning due to its simple syntax, 
+extensive library ecosystem, strong community support, and flexibility across the entire development pipeline
