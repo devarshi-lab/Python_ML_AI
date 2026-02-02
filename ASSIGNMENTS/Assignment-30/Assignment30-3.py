@@ -2,11 +2,14 @@ import os
 
 def fileContentLineByLine(file):
    fd = open(file,"r")
-   fileData = fd.read()
-#    for line in fileData:
-#         print(line, end='') 
-   for line in fileData.split("\n"):
+   # fileData = fd.readlines()
+   # for line in fd.readlines():
+   #     print(line)
+   line = fd.readline()
+   while (line != ""):
        print(line)
+       line = fd.readline()
+     
 
 def main():
     """Write a program which accepts a file name from the user and displays the contents of the file line by line on the screen."""

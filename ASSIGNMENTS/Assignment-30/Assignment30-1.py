@@ -2,9 +2,11 @@ import os
 
 def countLinesFromFile(file):
    fd = open(file,"r")
-   fileData = fd.read()
-   count = len(fileData.split("\n"))
-   return count
+   for line in fd:
+       print(line,end="")
+#    fileData = fd.read()
+#    count = len(fileData.split("\n"))
+#    return count
 
 def main():
     """Write a program which accepts a file name from the user and counts how many lines are present in the file"""

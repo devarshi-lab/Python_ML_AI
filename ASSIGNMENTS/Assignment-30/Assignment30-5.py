@@ -6,9 +6,6 @@ def wordCount(file,wordToFind):
     wordPresent = False
     # count = fileData.count(wordToFind) inbuilt method
     # if count > 0 then return True
-    # for line in fileData:
-    #             if word in line:
-    #                 return True
     fd.close()
     for word in fileData.split():
         if word == wordToFind:
