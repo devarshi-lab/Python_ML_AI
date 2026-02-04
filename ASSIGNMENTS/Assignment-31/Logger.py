@@ -11,7 +11,7 @@ def writeborder(file):
 
 def headerfooter(file):
     writeborder(file)
-    writeLog(file,"------------- Python Automation Script -------------\n")
+    writeLog(file,"------------ Python Automation Script ------------")
     writeborder(file)
 
 

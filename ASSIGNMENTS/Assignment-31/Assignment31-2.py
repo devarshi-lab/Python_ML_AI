@@ -27,6 +27,7 @@ def renameFileExtension(directory,sourceExtension,renameExtension):
 
         Logger.headerfooter(filename)
         Logger.writeborder(filename)
+        writeLog(f"Processed at : {time.ctime()}")
         logData = f'''Total files scanned : {filecount} \nTotal files with {sourceExtension} extension : {filesextcount} \nRenamed File Names : \n{"\n".join(fileswithextension)}'''
         writeLog(logData)
         Logger.writeborder(filename)

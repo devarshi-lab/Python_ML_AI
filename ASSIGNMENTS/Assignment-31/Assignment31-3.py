@@ -1,7 +1,7 @@
 import os
 import time
 import Logger
-import time
+import sys
 import shutil
 
 class copyFilesFromDirectoryToAnother:
@@ -18,7 +18,8 @@ class copyFilesFromDirectoryToAnother:
         return False
     
     def createDirectory(self):
-       os.mkdir(self.destDir)
+       if not os.path.exists(self.destDir):
+        os.mkdir(self.destDir)
         
     
     def copyFiles(self):
@@ -28,15 +29,25 @@ class copyFilesFromDirectoryToAnother:
             self.fileswithextension = []
             files = list(os.walk(self.srcDir))[0][2]
             self.createDirectory()
+            # Logic 1
             for file in files:
-                shutil.copyfile(self.srcDir+"\\"+file,self.destDir+"\\"+file)
+                file1 = os.path.join(self.srcDir,file)
+                file2 = os.path.join(self.destDir,file)
+                shutil.copyfile(file1,file2)                   # copyfile() → file only
+                # shutil.copy(file1,self.destDir)                # copy() → file + permission also destination can be directory
+                # shutil.copy2(file1,self.destDir)               # copy2() → file + permission + time also destination can be directory
 
-            # Logger.headerfooter(copyFilesFromDirectoryToAnother.filename)
-            # Logger.writeborder(copyFilesFromDirectoryToAnother.filename)
-            # logData = f'''Total files scanned : {self.filecount} \nTotal files with {self.extension} extension : {self.filesextcount}\nFile Names : \n{"\n".join(self.fileswithextension)}'''
-            # self.writeLog(logData)
-            # Logger.writeborder(copyFilesFromDirectoryToAnother.filename)
-            # Logger.headerfooter(copyFilesFromDirectoryToAnother.filename)
+            # Logic 2
+            # for file in (os.listdir(self.srcDir)):
+            #     file1 = os.path.join(self.srcDir,file)
+            #     file2 = os.path.join(self.destDir,file)
+            #     if(os.path.isfile(file1)):
+            #         shutil.copyfile(file1,file2)
+            Logger.headerfooter(copyFilesFromDirectoryToAnother.filename)
+            self.writeLog(f"Processed at : {time.ctime()}")
+            logData = f'''Total files scanned : {len(files)} \nTotal files copied : {len(files)}\nCopied at : {os.path.abspath(self.destDir)}'''
+            self.writeLog(logData)
+            Logger.headerfooter(copyFilesFromDirectoryToAnother.filename)
             return 1
         else:
             return -1
@@ -52,12 +63,17 @@ def main():
     """Design automation script which accept two directory names. Copy all files from first directory
 into second directory. Second directory should be created at run time.."""
     print(main.__doc__,"\n",("-"*50),"\n\n")
-    srcDir = input("Enter the name of source directory : ")
-    destDir = input("Enter the destination directory :  :  ")
+    if len(sys.argv)!=3:
+        print("Invalid no of arguments")
+        print(f"Usage : {sys.argv[0]} <Source_Directory> <Destination_Directory> ")
+        return
+    
+    srcDir = sys.argv[1]
+    destDir = sys.argv[2]
     dobj = copyFilesFromDirectoryToAnother(srcDir,destDir)
     ret = dobj.copyFiles()
     if(ret==1):
-        print("Script runsuccessfully.")
+        print("Script run successfully.")
     elif ret==-1:
         print("Directory does not exists.")
 

@@ -1,7 +1,7 @@
 import os
 import time
 import Logger
-import time
+import sys
 
 class SearchFIleWithExtension:
 
@@ -32,10 +32,9 @@ class SearchFIleWithExtension:
                              self.fileswithextension.append(file)
 
             Logger.headerfooter(SearchFIleWithExtension.filename)
-            Logger.writeborder(SearchFIleWithExtension.filename)
+            self.writeLog(f"Processed at : {time.ctime()}")
             logData = f'''Total files scanned : {self.filecount} \nTotal files with {self.extension} extension : {self.filesextcount}\nFile Names : \n{"\n".join(self.fileswithextension)}'''
             self.writeLog(logData)
-            Logger.writeborder(SearchFIleWithExtension.filename)
             Logger.headerfooter(SearchFIleWithExtension.filename)
             return 1
         else:
@@ -53,12 +52,19 @@ def main():
 Usage : DirectoryFileSearch.py “Demo” “.txt”
 Demo is name of directory and .txt is the extension that we want to search."""
     print(main.__doc__,"\n",("-"*50),"\n\n")
-    fileName = input("Enter the name of directory : ")
-    ext = input("Enter the extension :  ")
-    dobj = SearchFIleWithExtension(fileName,ext.replace(".",""))
+    if len(sys.argv)!=3:
+        print("Invalid no of arguments")
+        print(f"Usage : {sys.argv[0]} <Directory_Name> <Extension> ")
+        return
+    
+    directory = sys.argv[1]
+    ext = sys.argv[2]
+
+    dobj = SearchFIleWithExtension(directory,ext.replace(".",""))
     ret = dobj.getFilesWithExtension()
+
     if(ret==1):
-        print("Script runsuccessfully.")
+        print("Script run successfully.")
     elif ret==-1:
         print("Directory does not exists.")
 
