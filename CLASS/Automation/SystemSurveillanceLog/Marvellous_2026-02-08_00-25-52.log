@@ -1,0 +1,405 @@
+--------------------------------------------------
+----- Marvellous Platform Surviellance System ----
+Log created at : Sun Feb  8 00:25:52 2026
+--------------------------------------------------
+
+------------------ System Report -----------------
+CPU Usage : 2.1 %
+--------------------------------------------------
+RAM Usage : 65.0 %
+--------------------------------------------------
+Disk Usage Report
+C:\ -> 56.3 %
+--------------------------------------------------
+Network Usage Report
+Sent : 17.39 MB
+Received : 53.13 MB
+--------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+PID   NAME                                USERNAME                  STATUS     CREATE TIME               CPU PERCENT MEMORY PERCENT 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+0     System Idle Process                 NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       757.40                0.00
+
+4     System                              NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       0.00                  0.02
+
+144   Registry                            NA                        running    2026-02-07 23:39:16       0.00                  0.70
+
+564   smss.exe                            NA                        running    2026-02-07 23:39:18       0.00                  0.01
+
+624   services.exe                        NA                        running    2026-02-07 23:39:23       0.00                  0.12
+
+652   lsass.exe                           NA                        running    2026-02-07 23:39:23       0.00                  0.31
+
+864   csrss.exe                           NA                        running    2026-02-07 23:39:22       0.00                  0.07
+
+888   svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.13
+
+968   wininit.exe                         NA                        running    2026-02-07 23:39:23       0.00                  0.09
+
+976   csrss.exe                           NA                        running    2026-02-07 23:39:23       0.00                  0.07
+
+1096  svchost.exe                         NA                        running    2026-02-07 23:39:23       0.00                  0.39
+
+1120  fontdrvhost.exe                     NA                        running    2026-02-07 23:39:23       0.00                  0.04
+
+1216  winlogon.exe                        NA                        running    2026-02-07 23:39:24       0.00                  0.13
+
+1228  svchost.exe                         NA                        running    2026-02-07 23:39:24       0.00                  0.19
+
+1312  fontdrvhost.exe                     NA                        running    2026-02-07 23:39:24       0.00                  0.05
+
+1324  svchost.exe                         NA                        running    2026-02-07 23:39:24       0.00                  0.13
+
+1428  dwm.exe                             NA                        running    2026-02-07 23:39:24       0.00                  0.89
+
+1580  svchost.exe                         NA                        running    2026-02-07 23:39:24       0.00                  0.07
+
+1588  svchost.exe                         NA                        running    2026-02-07 23:39:24       0.00                  0.12
+
+1624  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:50:05       0.00                  0.43
+
+1680  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.20
+
+1716  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.13
+
+1728  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.13
+
+1792  python3.13.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-08 00:22:49       59.00                 0.30
+
+1808  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.11
+
+1820  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.14
+
+1884  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.09
+
+1888  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.10
+
+1992  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.20
+
+2084  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.15
+
+2104  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.08
+
+2140  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:46       0.00                  0.10
+
+2148  SynTPEnhService.exe                 NA                        running    2026-02-07 23:39:25       0.00                  0.12
+
+2324  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.10
+
+2364  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.10
+
+2376  NVDisplay.Container.exe             NA                        running    2026-02-07 23:39:25       0.00                  0.17
+
+2508  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.24
+
+2532  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:33       5.00                  4.64
+
+2556  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.15
+
+2560  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.07
+
+2572  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.10
+
+2604  svchost.exe                         NA                        running    2026-02-07 23:39:58       0.00                  0.12
+
+2612  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.18
+
+2680  MemCompression                      NA                        running    2026-02-07 23:39:25       0.00                  3.01
+
+2736  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.11
+
+2768  igfxCUIService.exe                  NA                        running    2026-02-07 23:39:25       0.00                  0.12
+
+2808  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.11
+
+2816  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.10
+
+2860  NVDisplay.Container.exe             NA                        running    2026-02-07 23:39:25       0.00                  0.34
+
+3020  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.17
+
+3048  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.09
+
+3180  svchost.exe                         NA                        running    2026-02-07 23:39:25       0.00                  0.09
+
+3228  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:46       0.00                  2.58
+
+3328  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.24
+
+3364  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.14
+
+3416  scheduler.exe                       NA                        running    2026-02-07 23:39:26       0.00                  0.32
+
+3552  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.23
+
+3560  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.22
+
+3576  IntelCpHDCPSvc.exe                  NA                        running    2026-02-07 23:39:26       0.00                  0.11
+
+3584  RtkAudUService64.exe                NA                        running    2026-02-07 23:39:26       0.00                  0.14
+
+3600  armsvc.exe                          NA                        running    2026-02-07 23:39:26       0.00                  0.09
+
+3616  svchost.exe                         NA                        running    2026-02-07 23:55:02       0.00                  0.27
+
+3620  RtkBtManServ.exe                    NA                        running    2026-02-07 23:39:26       0.00                  0.10
+
+3712  spoolsv.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.27
+
+3772  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:36       0.00                  1.18
+
+3784  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.25
+
+3796  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:36       0.00                  1.51
+
+3832  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.11
+
+3916  svchost.exe                         NA                        running    2026-02-07 23:39:28       0.00                  0.10
+
+3940  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:50:43       0.00                  0.63
+
+3956  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:39       0.00                  1.11
+
+3968  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.14
+
+3976  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.13
+
+3984  AggregatorHost.exe                  NA                        running    2026-02-07 23:39:28       0.00                  0.18
+
+3988  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.15
+
+3992  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.31
+
+4036  svchost.exe                         NA                        running    2026-02-07 23:39:28       0.00                  0.15
+
+4040  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.16
+
+4048  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.19
+
+4056  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.62
+
+4064  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.15
+
+4072  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.16
+
+4080  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.08
+
+4092  AnyDesk.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.53
+
+4100  inetinfo.exe                        NA                        running    2026-02-07 23:39:26       0.00                  0.22
+
+4120  HPPrintScanDoctorService.exe        NA                        running    2026-02-07 23:39:26       0.00                  0.17
+
+4232  MsMpEng.exe                         NA                        running    2026-02-07 23:39:26       0.00                  1.84
+
+4280  MpDefenderCoreService.exe           NA                        running    2026-02-07 23:39:26       0.00                  0.26
+
+4292  PanGPS.exe                          NA                        running    2026-02-07 23:39:26       0.00                  0.42
+
+4384  svchost.exe                         NA                        running    2026-02-07 23:41:29       0.00                  0.14
+
+4400  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:47       0.00                  0.70
+
+4492  svchost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.12
+
+4932  dasHost.exe                         NA                        running    2026-02-07 23:39:26       0.00                  0.18
+
+5056  FortiSSLVPNdaemon.exe               NA                        running    2026-02-07 23:39:28       0.00                  0.19
+
+5188  FortiSettings.exe                   NA                        running    2026-02-07 23:39:28       0.00                  0.16
+
+5392  NisSrv.exe                          NA                        running    2026-02-07 23:39:33       0.00                  0.15
+
+5564  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:55       0.00                  0.14
+
+5696  FortiVPN.exe                        NA                        running    2026-02-07 23:39:28       0.00                  0.22
+
+5716  dasHost.exe                         NA                        running    2026-02-07 23:39:27       0.00                  0.10
+
+5860  svchost.exe                         NA                        running    2026-02-07 23:39:27       0.00                  0.11
+
+6112  FCDBLog.exe                         NA                        running    2026-02-07 23:39:28       0.00                  0.26
+
+6460  backgroundTaskHost.exe              DESKTOP-58THKLT\Devarshi  stopped    2026-02-08 00:17:29       0.00                  0.33
+
+6560  svchost.exe                         NA                        running    2026-02-08 00:19:46       0.00                  0.09
+
+6592  svchost.exe                         NA                        running    2026-02-07 23:39:29       0.00                  0.09
+
+6628  svchost.exe                         NA                        running    2026-02-07 23:39:29       0.00                  0.17
+
+7344  sihost.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:36       0.00                  0.43
+
+7380  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:36       0.00                  0.40
+
+7400  PresentationFontCache.exe           NA                        running    2026-02-07 23:39:36       0.00                  0.25
+
+7416  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:36       0.00                  0.08
+
+7448  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:37       0.00                  0.43
+
+7492  LocationNotificationWindows.exe     DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:55:06       0.00                  0.10
+
+7524  taskhostw.exe                       DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:37       0.00                  0.25
+
+7556  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:47       0.00                  0.26
+
+7644  svchost.exe                         NA                        running    2026-02-07 23:39:37       0.00                  0.24
+
+7980  svchost.exe                         NA                        running    2026-02-07 23:39:37       0.00                  0.22
+
+8076  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:39       0.00                  0.21
+
+8084  explorer.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:37       0.00                  2.90
+
+8176  igfxEM.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:37       0.00                  0.31
+
+8320  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:37       0.00                  0.39
+
+8372  svchost.exe                         NA                        running    2026-02-07 23:39:38       0.00                  0.16
+
+8448  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:33       0.00                  0.58
+
+8528  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:32       1.40                  1.62
+
+8872  SearchHost.exe                      DESKTOP-58THKLT\Devarshi  stopped    2026-02-07 23:39:38       0.00                  1.26
+
+8896  StartMenuExperienceHost.exe         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:38       0.00                  1.20
+
+8964  crashpad_handler.exe                DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:51       0.00                  0.08
+
+9088  Widgets.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:38       0.00                  0.52
+
+9100  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:38       0.00                  0.41
+
+9132  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:38       0.00                  0.44
+
+9144  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:41       0.00                  1.41
+
+9172  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:47       0.00                  2.36
+
+9244  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-08 00:05:39       0.00                  0.40
+
+9572  FortiTray.exe                       DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:40       0.00                  0.25
+
+9704  dllhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:40       0.00                  0.19
+
+9832  SearchIndexer.exe                   NA                        running    2026-02-07 23:39:41       0.00                  0.28
+
+9924  SynTPEnh.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:40       0.00                  0.25
+
+10252 svchost.exe                         NA                        running    2026-02-07 23:41:37       0.00                  0.09
+
+10320 SecurityHealthService.exe           NA                        running    2026-02-07 23:39:47       0.00                  0.24
+
+10480 svchost.exe                         NA                        running    2026-02-07 23:39:59       0.00                  0.21
+
+10516 SecurityHealthSystray.exe           DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:47       0.00                  0.13
+
+10532 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:47       0.00                  1.69
+
+10548 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:49       0.00                  1.35
+
+10576 PanGPA.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:48       0.00                  0.27
+
+10672 RtkAudUService64.exe                DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:47       0.00                  0.13
+
+10736 OneDrive.Sync.Service.exe           DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:51       0.00                  0.58
+
+10756 TextInputHost.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:48       0.00                  1.75
+
+11004 PhoneExperienceHost.exe             DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:43       1.30                  2.78
+
+11016 ctfmon.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:44       0.00                  0.36
+
+11048 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:24       0.00                  0.08
+
+11260 svchost.exe                         NA                        running    2026-02-07 23:39:58       0.00                  0.14
+
+11276 SystemSettings.exe                  DESKTOP-58THKLT\Devarshi  stopped    2026-02-07 23:41:25       0.00                  0.02
+
+11288 ApplicationFrameHost.exe            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:25       0.00                  0.35
+
+11320 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:41       0.00                  0.08
+
+11396 svchost.exe                         NA                        running    2026-02-07 23:41:26       0.00                  0.13
+
+11408 YourPhoneAppProxy.exe               DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:58       0.00                  0.94
+
+11900 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:33       2.50                  1.68
+
+12124 CrossDeviceService.exe              DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:54       0.00                  1.49
+
+12140 svchost.exe                         NA                        running    2026-02-07 23:39:57       0.00                  0.10
+
+12160 WidgetService.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:59       0.00                  0.25
+
+12168 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:39:59       0.00                  0.20
+
+12272 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:41       0.00                  7.05
+
+12452 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:35       0.00                  4.43
+
+12516 powershell.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:41       0.00                  0.62
+
+12672 pet.exe                             DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:38       0.00                  0.08
+
+12712 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:38       0.00                  0.07
+
+12876 nearby_share.exe                    DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:50       0.00                  0.79
+
+12888 dllhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:46:04       0.00                  0.12
+
+13108 jusched.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:07       0.00                  0.11
+
+13176 AnyDesk.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:09       0.00                  0.24
+
+13260 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:40:33       0.00                  0.37
+
+13272 svchost.exe                         NA                        running    2026-02-07 23:41:27       0.00                  0.16
+
+13552 powershell.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:24       0.00                  0.85
+
+13688 UserOOBEBroker.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:26       0.00                  0.12
+
+13928 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:26       0.00                  0.12
+
+13956 svchost.exe                         NA                        running    2026-02-07 23:41:26       0.00                  0.09
+
+13964 svchost.exe                         NA                        running    2026-02-07 23:41:26       0.00                  0.17
+
+14284 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-08 00:05:38       0.00                  3.72
+
+14328 svchost.exe                         NA                        running    2026-02-07 23:42:37       0.00                  0.11
+
+14660 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:49:47       0.00                  0.66
+
+14728 ShellExperienceHost.exe             DESKTOP-58THKLT\Devarshi  stopped    2026-02-07 23:41:28       0.00                  0.78
+
+14812 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:28       0.00                  0.30
+
+14992 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:28       0.00                  0.13
+
+15048 SystemSettingsBroker.exe            DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:28       0.00                  0.40
+
+15224 svchost.exe                         NA                        running    2026-02-07 23:41:30       0.00                  0.09
+
+15384 svchost.exe                         NA                        running    2026-02-07 23:41:30       0.00                  0.13
+
+15496 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:41:30       0.00                  0.28
+
+16032 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-08 00:17:29       0.00                  0.21
+
+16140 svchost.exe                         NA                        running    2026-02-07 23:41:35       0.00                  0.07
+
+16224 audiodg.exe                         NA                        running    2026-02-08 00:21:27       0.00                  0.19
+
+17296 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-07 23:50:05       0.00                  0.23
+
+------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------
+------------------ End of Log File ---------------
+--------------------------------------------------

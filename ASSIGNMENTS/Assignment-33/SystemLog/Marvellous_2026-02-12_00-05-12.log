@@ -1,0 +1,399 @@
+--------------------------------------------------
+----- Marvellous Platform Surviellance System ----
+Log created at : Thu Feb 12 00:05:12 2026
+--------------------------------------------------
+
+------------------ System Report -----------------
+CPU Usage : 8.3 %
+--------------------------------------------------
+RAM Usage : 84.4 %
+--------------------------------------------------
+Disk Usage Report
+C:\ -> 56.8 %
+--------------------------------------------------
+Network Usage Report
+Sent : 92.38 MB
+Received : 686.22 MB
+--------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+PID   NAME                                USERNAME                  STATUS     CREATE TIME               CPU PERCENT MEMORY PERCENT  THREADS RUNNING      OPEN FILES      RSS             VMS             
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+0     System Idle Process                 NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       728.70     0.00            16                   0               0.01 MB         0.06 MB         
+
+4     System                              NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       2.30       0.07            259                  0               5.93 MB         0.06 MB         
+
+1196  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:03       0.00       0.48            7                    10              38.32 MB        10.20 MB        
+
+1712  LockApp.exe                         DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 20:59:09       0.00       0.81            12                   8               65.01 MB        19.86 MB        
+
+2224  CrossDeviceService.exe              DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:31       0.00       1.12            15                   162             90.57 MB        32.62 MB        
+
+2636  OpenConsole.exe                     DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:56       0.00       0.13            3                    1               10.84 MB        2.36 MB         
+
+2864  StartMenuExperienceHost.exe         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:03       0.00       1.26            12                   18              101.18 MB       53.63 MB        
+
+3320  SystemSettings.exe                  DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 21:00:27       0.00       0.03            50                   21              2.72 MB         171.09 MB       
+
+3440  WhatsApp.Root.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:41       0.00       1.54            33                   115             123.94 MB       63.89 MB        
+
+3668  msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:18:14       0.00       0.72            21                   22              58.00 MB        38.56 MB        
+
+3728  pet.exe                             DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:24       0.00       0.14            1                    6               11.16 MB        3.29 MB         
+
+3888  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:43       0.00       0.13            2                    1               10.58 MB        2.14 MB         
+
+4112  CodeSetup-stable-591199df409fbf59b4b52d5ad4ee0470152a9b31.tmp DESKTOP-58THKLT\Devarshi  running    2026-02-11 22:02:06       0.00       0.41            1                    9               33.16 MB        26.19 MB        
+
+4140  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:04       0.00       0.64            17                   22              51.33 MB        25.18 MB        
+
+4880  GitHubDesktop.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:06       0.00       1.09            43                   43              87.71 MB        77.47 MB        
+
+5444  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:29:01       0.00       3.71            23                   61              298.74 MB       265.46 MB       
+
+5840  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:02       0.00       3.01            45                   178             242.30 MB       130.29 MB       
+
+6020  PanGPA.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:21       0.00       0.56            5                    13              44.88 MB        9.58 MB         
+
+6716  msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:59       0.00       0.05            20                   21              4.34 MB         22.32 MB        
+
+6908  powershell.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:35:58       0.00       0.98            14                   8               79.26 MB        56.90 MB        
+
+6972  msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:59       0.60       1.37            20                   33              110.65 MB       82.36 MB        
+
+7000  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.40            7                    13              32.51 MB        11.94 MB        
+
+7136  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:38       0.00       0.61            18                   22              49.36 MB        19.18 MB        
+
+7148  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:33       0.00       0.77            18                   22              62.38 MB        23.72 MB        
+
+7180  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:17       0.30       1.64            53                   61              132.26 MB       122.89 MB       
+
+7220  ApplicationFrameHost.exe            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:27       0.00       0.34            3                    6               27.53 MB        9.66 MB         
+
+7452  msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:45       0.00       0.19            16                   4               15.27 MB        26.12 MB        
+
+7460  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:04       0.00       0.21            2                    7               16.81 MB        3.33 MB         
+
+7476  DataExchangeHost.exe                DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:20:02       0.00       0.30            4                    5               23.80 MB        7.39 MB         
+
+7508  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:02       0.00       0.37            9                    8               29.96 MB        7.90 MB         
+
+7728  WidgetService.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:05       0.00       0.25            5                    10              20.18 MB        4.64 MB         
+
+7832  GitHubDesktop.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:07       0.00       1.42            26                   38              114.74 MB       96.85 MB        
+
+7848  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:03       0.00       0.68            16                   14              54.66 MB        17.62 MB        
+
+7876  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:25       0.20       1.22            29                   10              98.54 MB        110.70 MB       
+
+8316  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:59       0.00       0.24            1                    3               18.97 MB        7.39 MB         
+
+8392  RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:09       0.00       0.46            39                   9               36.93 MB        12.11 MB        
+
+8420  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:54:26       0.00       0.51            19                   22              41.00 MB        19.51 MB        
+
+8572  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:25       0.00       0.61            18                   22              49.06 MB        22.32 MB        
+
+8592  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:02:23       0.00       0.41            10                   11              32.77 MB        19.81 MB        
+
+8672  FortiTray.exe                       DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:03       0.00       0.24            58                   5               19.16 MB        9.05 MB         
+
+9056  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.43            4                    12              34.67 MB        8.93 MB         
+
+9260  msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:59       0.00       0.13            20                   21              10.16 MB        24.38 MB        
+
+9836  svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.08            2                    1               6.30 MB         1.23 MB         
+
+9860  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:03       0.00       0.10            7                    1               8.23 MB         6.64 MB         
+
+9892  GitHubDesktop.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:07       0.00       0.88            17                   5               70.69 MB        43.53 MB        
+
+10364 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:33       0.00       0.14            2                    1               11.07 MB        2.27 MB         
+
+10488 Widgets.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:04       0.00       0.48            8                    14              38.52 MB        9.03 MB         
+
+10564 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:27       0.00       7.26            20                   15              585.09 MB       798.02 MB       
+
+10600 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:03       0.00       0.15            15                   21              11.73 MB        21.72 MB        
+
+10884 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:35:58       0.20       0.08            5                    1               6.76 MB         1.37 MB         
+
+11020 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:03       0.00       0.14            15                   21              11.68 MB        22.72 MB        
+
+11056 AnyDesk.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:42       0.00       0.28            9                    4               22.61 MB        29.43 MB        
+
+11116 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:43:46       0.00       0.57            18                   22              46.31 MB        20.16 MB        
+
+11220 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       0.52            20                   20              41.80 MB        16.95 MB        
+
+11256 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:56       0.00       0.10            2                    2               8.18 MB         1.30 MB         
+
+11596 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:44       0.00       0.91            50                   124             73.14 MB        46.70 MB        
+
+11712 crashpad_handler.exe                DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:27       0.00       0.08            6                    0               6.05 MB         1.36 MB         
+
+11844 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:03       0.00       1.79            19                   5               143.99 MB       149.86 MB       
+
+11928 RtkAudUService64.exe                DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:21       0.00       0.12            7                    1               9.88 MB         2.23 MB         
+
+12012 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:45       0.00       0.13            8                    1               10.10 MB        2.32 MB         
+
+12072 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:18:50       0.00       1.81            20                   60              145.89 MB       114.93 MB       
+
+12176 TextInputHost.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:13       0.00       1.76            47                   40              142.15 MB       118.14 MB       
+
+12184 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:29       0.00       0.12            2                    2               9.33 MB         1.65 MB         
+
+12248 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:35       0.00       1.02            19                   46              81.96 MB        35.77 MB        
+
+12324 SynTPEnh.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:58:59       0.00       0.25            7                    1               20.35 MB        6.25 MB         
+
+12456 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:04:06       0.00       0.17            2                    3               13.89 MB        2.46 MB         
+
+12484 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:03       0.00       0.69            21                   22              55.77 MB        52.64 MB        
+
+12556 dllhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:50       0.00       0.11            2                    1               8.61 MB         1.52 MB         
+
+12592 taskhostw.exe                       DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.25            8                    12              20.37 MB        8.04 MB         
+
+12608 dllhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:07       0.00       0.19            7                    10              15.62 MB        5.90 MB         
+
+12944 RuntimeBroker.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:40       0.00       0.20            2                    1               16.09 MB        2.86 MB         
+
+13004 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:45       0.00       0.12            10                   12              9.85 MB         8.75 MB         
+
+13216 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:00       0.00       0.27            3                    7               21.39 MB        5.36 MB         
+
+13240 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       0.25            10                   17              19.76 MB        8.78 MB         
+
+13420 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:02:23       0.00       0.27            11                   8               21.36 MB        13.17 MB        
+
+13824 SecurityHealthSystray.exe           DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:18       0.00       0.13            1                    2               10.17 MB        1.90 MB         
+
+13940 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:04       0.00       0.69            29                   22              55.63 MB        45.06 MB        
+
+13984 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:59       0.00       0.13            15                   21              10.49 MB        21.84 MB        
+
+13988 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:06       0.00       0.15            15                   21              11.72 MB        21.75 MB        
+
+14196 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:45       0.00       0.33            20                   20              26.41 MB        12.73 MB        
+
+14200 OneDrive.Sync.Service.exe           DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:27       0.00       0.54            18                   20              43.73 MB        41.23 MB        
+
+14272 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:18:14       0.00       0.34            15                   8               27.58 MB        18.96 MB        
+
+14316 powershell.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:26       0.00       0.92            9                    6               73.76 MB        55.37 MB        
+
+14604 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:18:55       0.00       0.62            19                   22              49.59 MB        24.51 MB        
+
+14744 ShellExperienceHost.exe             DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 21:04:06       0.00       0.44            20                   7               35.62 MB        18.84 MB        
+
+14952 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:38       0.00       0.66            18                   22              53.02 MB        21.69 MB        
+
+15028 jucheck.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:04:44       0.00       0.20            5                    7               16.30 MB        3.27 MB         
+
+15184 UserOOBEBroker.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:30       0.00       0.11            1                    3               9.01 MB         2.06 MB         
+
+15304 SearchHost.exe                      DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 20:59:03       0.00       1.15            67                   33              92.49 MB        130.50 MB       
+
+15452 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:07       0.00       0.70            29                   22              56.43 MB        44.92 MB        
+
+15504 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:10       0.00       0.13            1                    2               10.75 MB        2.00 MB         
+
+15696 jusched.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:43       0.00       0.24            2                    8               19.57 MB        3.07 MB         
+
+15944 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:25       0.00       0.08            5                    1               6.38 MB         1.24 MB         
+
+15996 explorer.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:01       0.00       2.75            82                   66              221.62 MB       153.31 MB       
+
+16000 GitHubDesktop.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:23:07       0.00       0.61            19                   16              49.30 MB        13.59 MB        
+
+16304 igfxEM.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.28            6                    5               22.92 MB        6.10 MB         
+
+16416 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       0.13            7                    1               10.10 MB        2.29 MB         
+
+16584 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.00       0.39            7                    2               31.23 MB        10.44 MB        
+
+16664 LocationNotificationWindows.exe     DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:14       0.00       0.04            1                    3               3.22 MB         1.85 MB         
+
+16776 svchost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:56       0.00       0.12            1                    2               9.47 MB         1.69 MB         
+
+17020 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:00       0.00       0.90            21                   22              72.28 MB        47.70 MB        
+
+17272 YourPhoneAppProxy.exe               DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:39       0.00       0.83            11                   76              66.68 MB        33.12 MB        
+
+17384 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:43:49       0.00       1.93            19                   46              155.48 MB       91.90 MB        
+
+17480 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:59       0.00       0.30            9                    7               24.19 MB        9.55 MB         
+
+17492 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:12:00       0.00       0.70            21                   22              56.44 MB        45.34 MB        
+
+17544 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:24       0.00       0.08            2                    1               6.35 MB         5.27 MB         
+
+17740 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:33       0.00       0.60            16                   22              48.12 MB        18.25 MB        
+
+17888 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:47       0.00       1.20            22                   33              96.38 MB        91.23 MB        
+
+18048 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:03       0.00       0.80            21                   22              64.14 MB        37.50 MB        
+
+18068 nearby_share.exe                    DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:27       0.00       0.74            141                  15              59.95 MB        89.09 MB        
+
+18156 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       2.27            58                   144             182.86 MB       95.62 MB        
+
+18172 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:03:28       0.20       0.98            33                   22              78.78 MB        684.33 MB       
+
+18236 sihost.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:00       0.00       0.42            11                   2               33.94 MB        6.90 MB         
+
+18304 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:03       0.00       0.24            11                   19              19.14 MB        11.29 MB        
+
+18324 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.20       0.91            20                   4               73.68 MB        77.62 MB        
+
+18356 PhoneExperienceHost.exe             DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:36       0.00       1.10            21                   239             88.26 MB        84.25 MB        
+
+18604 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:19       0.00       1.16            26                   9               93.25 MB        90.66 MB        
+
+18636 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:19       0.00       1.03            23                   8               83.21 MB        104.86 MB       
+
+18796 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.40       5.00            20                   48              403.29 MB       411.08 MB       
+
+18964 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.00       1.47            17                   5               118.35 MB       94.20 MB        
+
+19064 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:20       0.10       3.48            27                   21              280.45 MB       412.84 MB       
+
+19184 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.00       0.60            19                   17              47.97 MB        14.77 MB        
+
+19196 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:46       0.00       1.00            19                   46              80.27 MB        37.03 MB        
+
+19516 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:25       0.00       0.67            18                   22              53.64 MB        20.03 MB        
+
+19708 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:51:45       0.00       2.48            21                   42              199.65 MB       137.75 MB       
+
+19768 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:25       0.00       0.60            18                   22              48.64 MB        21.23 MB        
+
+19868 CodeSetup-stable-591199df409fbf59b4b52d5ad4ee0470152a9b31.exe DESKTOP-58THKLT\Devarshi  running    2026-02-11 22:02:06       0.00       0.11            1                    19              8.53 MB         7.14 MB         
+
+20452 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:38       0.00       0.58            18                   22              46.62 MB        19.71 MB        
+
+20460 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:45:25       0.00       0.57            18                   22              46.27 MB        18.54 MB        
+
+20612 python3.13.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-12 00:05:12       59.20      0.36            8                    3               29.18 MB        15.38 MB        
+
+20660 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:44:33       0.00       0.82            20                   22              65.80 MB        32.73 MB        
+
+21272 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:46:38       0.00       0.37            13                   9               29.43 MB        15.70 MB        
+
+21384 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:54:23       0.00       1.32            21                   34              106.04 MB       62.80 MB        
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUMMARY
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOTAL PROCESSES : 133
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOP 10 CPU CONSUMING PROCESS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+0     System Idle Process                 NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       728.70     0.00            16                   0               0.01 MB         0.06 MB         
+
+20612 python3.13.exe                      DESKTOP-58THKLT\Devarshi  running    2026-02-12 00:05:12       59.20      0.36            8                    3               29.18 MB        15.38 MB        
+
+4     System                              NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       2.30       0.07            259                  0               5.93 MB         0.06 MB         
+
+6972  msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:59       0.60       1.37            20                   33              110.65 MB       82.36 MB        
+
+18796 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.40       5.00            20                   48              403.29 MB       411.08 MB       
+
+7180  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:17       0.30       1.64            53                   61              132.26 MB       122.89 MB       
+
+7876  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:25       0.20       1.22            29                   10              98.54 MB        110.70 MB       
+
+10884 conhost.exe                         DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:35:58       0.20       0.08            5                    1               6.76 MB         1.37 MB         
+
+18172 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:03:28       0.20       0.98            33                   22              78.78 MB        684.33 MB       
+
+18324 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.20       0.91            20                   4               73.68 MB        77.62 MB        
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOP 10 MEMORY CONSUMING PROCESS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10564 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:27       0.00       7.26            20                   15              585.09 MB       798.02 MB       
+
+18796 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:18       0.40       5.00            20                   48              403.29 MB       411.08 MB       
+
+5444  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:29:01       0.00       3.71            23                   61              298.74 MB       265.46 MB       
+
+19064 Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:20       0.10       3.48            27                   21              280.45 MB       412.84 MB       
+
+5840  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:02       0.00       3.01            45                   178             242.30 MB       130.29 MB       
+
+15996 explorer.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:01       0.00       2.75            82                   66              221.62 MB       153.31 MB       
+
+19708 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:51:45       0.00       2.48            21                   42              199.65 MB       137.75 MB       
+
+18156 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       2.27            58                   144             182.86 MB       95.62 MB        
+
+17384 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 23:43:49       0.00       1.93            19                   46              155.48 MB       91.90 MB        
+
+12072 chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:18:50       0.00       1.81            20                   60              145.89 MB       114.93 MB       
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOP 10 THREAD CONSUMING PROCESS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4     System                              NT AUTHORITY\SYSTEM       running    1970-01-01 05:30:00       2.30       0.07            259                  0               5.93 MB         0.06 MB         
+
+18068 nearby_share.exe                    DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:00:27       0.00       0.74            141                  15              59.95 MB        89.09 MB        
+
+15996 explorer.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:01       0.00       2.75            82                   66              221.62 MB       153.31 MB       
+
+15304 SearchHost.exe                      DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 20:59:03       0.00       1.15            67                   33              92.49 MB        130.50 MB       
+
+18156 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       2.27            58                   144             182.86 MB       95.62 MB        
+
+8672  FortiTray.exe                       DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:03       0.00       0.24            58                   5               19.16 MB        9.05 MB         
+
+7180  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:17       0.30       1.64            53                   61              132.26 MB       122.89 MB       
+
+11596 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:44       0.00       0.91            50                   124             73.14 MB        46.70 MB        
+
+3320  SystemSettings.exe                  DESKTOP-58THKLT\Devarshi  stopped    2026-02-11 21:00:27       0.00       0.03            50                   21              2.72 MB         171.09 MB       
+
+12176 TextInputHost.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:13       0.00       1.76            47                   40              142.15 MB       118.14 MB       
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOP 10 OPEN FILES PROCESS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18356 PhoneExperienceHost.exe             DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:36       0.00       1.10            21                   239             88.26 MB        84.25 MB        
+
+5840  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:01:02       0.00       3.01            45                   178             242.30 MB       130.29 MB       
+
+2224  CrossDeviceService.exe              DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:31       0.00       1.12            15                   162             90.57 MB        32.62 MB        
+
+18156 msedge.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:11:58       0.00       2.27            58                   144             182.86 MB       95.62 MB        
+
+11596 msedgewebview2.exe                  DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:44       0.00       0.91            50                   124             73.14 MB        46.70 MB        
+
+3440  WhatsApp.Root.exe                   DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:41       0.00       1.54            33                   115             123.94 MB       63.89 MB        
+
+17272 YourPhoneAppProxy.exe               DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:39       0.00       0.83            11                   76              66.68 MB        33.12 MB        
+
+15996 explorer.exe                        DESKTOP-58THKLT\Devarshi  running    2026-02-11 20:59:01       0.00       2.75            82                   66              221.62 MB       153.31 MB       
+
+7180  Code.exe                            DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:24:17       0.30       1.64            53                   61              132.26 MB       122.89 MB       
+
+5444  chrome.exe                          DESKTOP-58THKLT\Devarshi  running    2026-02-11 21:29:01       0.00       3.71            23                   61              298.74 MB       265.46 MB       
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------ End of Log File ---------------
+--------------------------------------------------
