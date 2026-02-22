@@ -90,7 +90,7 @@ def createLog(foldername):
     writeToFile(fobj,"-"*200+"\n")
     writeToFile(fobj,"------------------ End of Log File ---------------")
     writeToFile(fobj,borderFile())
-
+    fobj.close()
     sendLogMail(FileName)
 
 
@@ -163,6 +163,8 @@ def main():
             print("6. Store information about RAM usage")
             print("7. Store information about secondary storage")
             print("7. Store information about Number of Threads created by  process  ")
+            print("7. Store information about Number of Files opened by  process  ")
+            print("7. Store information about Memory Usage (RSS,VSS)  ")
 
         elif(sys.argv[1]=="--u" or sys.argv[1]=="--U"):
             print("Use the automation script as")
