@@ -203,15 +203,15 @@ def feature_importance(model:DecisionTreeClassifier):
 def main():
     data = load_csv()
     if(data is not None):
-        # data_analysis(data)
-        # calculation_of_data(data)
-        # checkData(data)
-        # corelation(data)
-        # histogram(data)
-        # scatterplot(data)
-        # boxplot(data)
-        # correlationplot1(data)
-        # correlationplot2(data)
+        data_analysis(data)
+        calculation_of_data(data)
+        checkData(data)
+        corelation(data)
+        histogram(data)
+        scatterplot(data)
+        boxplot(data)
+        correlationplot1(data)
+        correlationplot2(data)
         model = train_test_model(data)
         test_data = pandas.DataFrame({
         "StudyHours": [2, 5, 8, 4, 7],

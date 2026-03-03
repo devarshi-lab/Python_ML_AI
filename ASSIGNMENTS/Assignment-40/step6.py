@@ -129,6 +129,7 @@ of getting pass
 of getting pass""")
     
 def train_test_model(data):
+    # print(data["27"].values)
     model = DecisionTreeClassifier(max_depth=None)
     X = data[list(data.columns)[:5]]
     Y = data['FinalResult']
@@ -150,7 +151,11 @@ def train_test_model(data):
     # calculate_accuracy(X_train_pred,Y_train)
     print(border)
     print("Training Accuracy : ")
-    calculate_accuracy(Y_pred,Y_test)
+    mismatches = calculate_accuracy(Y_pred,Y_test)
+    print(border)
+    print("Students whose prediction got wrong : ")
+    for mismatch in mismatches:
+        print(data.iloc[[mismatch]])
     print(border)
     print("Training accuracy is greater than testing accuracy but not a major difeerence which overrules the overfitting and underfitting")
     print(border)
@@ -165,14 +170,19 @@ def train_test_model(data):
 def calculate_accuracy(Y_pred,Y_test):
     accuracy = accuracy_score(Y_test,Y_pred)
     acc_count = 0
+    textIndexes = Y_test.index
+    testMismatches = []
     Y_test = list(Y_test)
     for i in range(len(Y_test)):
         if Y_test[i]==Y_pred[i]:
             acc_count += 1
+        else:            
+            testMismatches.append(textIndexes[i])
     manually_accuracy = (acc_count / len(Y_test)) * 100
 
     print("Accuracy of model is (Inbuilt) : ",accuracy*100," %")
     print("Accuracy of model is (Manually) : ",manually_accuracy," %")
+    return testMismatches
 
 def calc_confusionmatrix(Y_pred,Y_test):
     print(border)
