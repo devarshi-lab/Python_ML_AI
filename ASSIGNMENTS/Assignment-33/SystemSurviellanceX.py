@@ -9,6 +9,7 @@ def writeToFile(fileObject,data):
     fileObject.write(data+"\n")
 
 def createLog(foldername):
+    # print("Creating log file in folder : ",foldername)
     if not os.path.exists(foldername) or not os.path.isdir(foldername):
         os.mkdir(foldername)
     
@@ -44,6 +45,7 @@ def createLog(foldername):
     writeToFile(fobj,borderFile())
 
     processDetails = processScan()
+    print(processDetails)
     header_format = "{:<5} {:<35} {:<25} {:<10} {:<25} {:<10} {:<15} {:<20} {:<15} {:<15} {:<15} \n"
     data_format = "{:<5} {:<35} {:<25} {:<10} {:<25} {:<10.2f} {:<15.2f} {:<20} {:<15} {:<15} {:<15} \n"
     writeToFile(fobj,"-"*132+"\n")
@@ -61,12 +63,14 @@ def createLog(foldername):
     writeToFile(fobj,"TOP 10 CPU CONSUMING PROCESS")
     writeToFile(fobj,"-"*200+"\n")
     processDetails.sort(key=lambda x: x.get("cpu_percent", 0.0),reverse=True)
+
     for info in processDetails[:10]:
         writeToFile(fobj,data_format.format(info.get("pid"),info.get("name") or "NA",info.get("username") or "NA",info.get("status")  or "NA",info.get("create_time")  or "NA",info.get("cpu_percent") or 0.0,info.get("memory_percent") or 0.0,info.get("num_threads"),info.get("open_files"),str(info.get("rss")) + " MB",str(info.get("vms")) + " MB"))
     
     writeToFile(fobj,"-"*200+"\n")
     writeToFile(fobj,"TOP 10 MEMORY CONSUMING PROCESS")
     writeToFile(fobj,"-"*200+"\n")
+
     processDetails.sort(key=lambda x: x.get("memory_percent", 0.0),reverse=True)
     for info in processDetails[:10]:
         writeToFile(fobj,data_format.format(info.get("pid"),info.get("name") or "NA",info.get("username") or "NA",info.get("status")  or "NA",info.get("create_time")  or "NA",info.get("cpu_percent") or 0.0,info.get("memory_percent") or 0.0,info.get("num_threads"),info.get("open_files"),str(info.get("rss")) + " MB",str(info.get("vms")) + " MB"))
@@ -74,6 +78,7 @@ def createLog(foldername):
     writeToFile(fobj,"-"*200+"\n")
     writeToFile(fobj,"TOP 10 THREAD CONSUMING PROCESS")
     writeToFile(fobj,"-"*200+"\n")
+
     processDetails.sort(key=lambda x: x.get("num_threads", 0.0),reverse=True)
     for info in processDetails[:10]:
         writeToFile(fobj,data_format.format(info.get("pid"),info.get("name") or "NA",info.get("username") or "NA",info.get("status")  or "NA",info.get("create_time")  or "NA",info.get("cpu_percent") or 0.0,info.get("memory_percent") or 0.0,info.get("num_threads"),info.get("open_files"),str(info.get("rss")) + " MB",str(info.get("vms")) + " MB"))
@@ -81,6 +86,7 @@ def createLog(foldername):
     writeToFile(fobj,"-"*200+"\n")
     writeToFile(fobj,"TOP 10 OPEN FILES PROCESS")
     writeToFile(fobj,"-"*200+"\n")
+
     processDetails.sort(key=lambda x: x.get("open_files", 0.0),reverse=True)
     for info in processDetails[:10]:
         writeToFile(fobj,data_format.format(info.get("pid"),info.get("name") or "NA",info.get("username") or "NA",info.get("status")  or "NA",info.get("create_time")  or "NA",info.get("cpu_percent") or 0.0,info.get("memory_percent") or 0.0,info.get("num_threads"),info.get("open_files"),str(info.get("rss")) + " MB",str(info.get("vms")) + " MB"))
@@ -90,14 +96,15 @@ def createLog(foldername):
     writeToFile(fobj,"-"*200+"\n")
     writeToFile(fobj,"------------------ End of Log File ---------------")
     writeToFile(fobj,borderFile())
-
+    
+    fobj.close()
     sendLogMail(FileName)
 
 
 def sendLogMail(filePath):
     sender_email = "devarshipimpale02@gmail.com"
     app_password = "yittwcbhqkuyycwc"
-    receiver_mail = "devarshipimpale@gmail.com"
+    receiver_mail = "dev3@wyse.co.in"
     subject = "System Surviellance Report - " + time.ctime()
     body = """Dear ,
 
@@ -137,6 +144,7 @@ def processScan():
 
             info["cpu_percent"] = proc.cpu_percent(None)
             info["memory_percent"] = proc.memory_percent()
+            # print(info)
             listProcess.append(info)
         except (psutil.NoSuchProcess,psutil.AccessDenied,psutil.ZombieProcess):
             pass
