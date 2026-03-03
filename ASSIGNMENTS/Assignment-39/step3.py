@@ -1,0 +1,167 @@
+import pandas
+import matplotlib.pyplot as mt
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+
+border = "-"*100
+
+def load_csv():
+    try:
+        data = pandas.read_csv("student_performance_ml.csv")
+        print("Top 5 Records")
+        print(border)
+        print(data.head())
+        print(border)
+        print("Last 5 Records")
+        print(border)
+        print(data.tail())
+        print(border)
+        print("Total rows * col",data.shape)
+        print(border)
+        print("Column Names")
+        print(list(data.columns))
+        print(border)
+        print(data.dtypes)
+        print(border)
+        return data
+    except FileNotFoundError:
+        print("No such file or directory: 'student_perfomance_ml.csv'")
+    return None
+
+def data_analysis(data):
+    print(border)
+    print("Total number of students in the dataset : ",len(data))
+    print(border)
+    print("Total number of Passed students in the dataset : ",(data["FinalResult"] == 1).sum())
+    print("Total number of Failed students in the dataset : ",(data["FinalResult"] == 0).sum())
+    print(border)
+
+def calculation_of_data(data):
+    print(border)
+    print("Average StudyHours : ",data["StudyHours"].mean())
+    print("Average Attendance : ",data["Attendance"].mean())
+    print("Maximum PreviousScore : ",data["PreviousScore"].max())
+    print("Minimum SleepHours : ",data["SleepHours"].min())
+
+def checkData(data):
+    print(border)
+    print("Final Result Distibution",data["FinalResult"].value_counts())
+    print("Passed students percentage : ", ((((data["FinalResult"]==1).sum())/len(data))*100),"%")
+    print("Failed students percentage : ", ((((data["FinalResult"]==0).sum())/len(data))*100),"%")
+    print("Data is not balanced as passed percentage is grater than failed percentage")
+
+def corelation(data):
+    print(border)
+    study = data["StudyHours"].corr(data["FinalResult"])
+    attendance = data["Attendance"].corr(data["FinalResult"])
+    print("Higher study hours passing percentage : ", study)
+    print("Higher attedance passing percentage : ",attendance)
+    print("""When we correlate between studyhours and finalresult
+we get result near +1 which shows that higher study hours increases
+the passing probability.""")
+    print(border)
+    print("""When we correlate between attendance and finalresult
+we get result near +1 which shows that higher study hours increases
+the passing probability.""")
+
+def histogram(data):
+    mt.figure()
+    mt.hist(x=data["StudyHours"],bins=8, linewidth=0.5, edgecolor="white")
+    mt.title("Study Hours")
+    mt.xlabel("Study Hours")
+    mt.ylabel("Frequency")
+    mt.show()
+
+def scatterplot(data):
+    mt.figure()
+    for result in data["FinalResult"].unique():
+        temp = data[data["FinalResult"] == result]
+        mt.scatter(temp["StudyHours"],temp["PreviousScore"],label="Pass" if result==1 else "Fail")
+
+    mt.title("Students Perfomance : Study Hours vs Previous Score")
+    mt.xlabel("Study Hours")
+    mt.ylabel("Previous Score")
+    mt.legend()
+    mt.grid(True)
+    mt.show()
+
+def boxplot(data):
+    mt.figure()
+    mt.boxplot(data["Attendance"])
+    mt.title("Boxplot of attendance")
+    mt.xlabel("Attendance")
+    mt.show()
+
+def correlationplot1(data):
+    mt.figure()
+    mt.scatter(data[data["FinalResult"] == 0]["FinalResult"], data[data["FinalResult"] == 0]["AssignmentsCompleted"])
+    mt.scatter(data[data["FinalResult"] == 1]["FinalResult"], data[data["FinalResult"] == 1]["AssignmentsCompleted"])
+    mt.xticks([0, 1], ["Fail", "Pass"])
+    mt.xlabel("Final Result")
+    mt.ylabel("Assignments Completed")
+    mt.title("Assignments Completed vs Final Result")
+    mt.show()
+    print(border)
+    print("""The result of correlation between FinalResult
+and AssignmentCompleted shows that - 
+1. Students who has solved max assignment has more probability
+of getting pass
+2. Students who has completed less number of assignment has low probability
+of getting pass""")
+    
+def correlationplot2(data):
+    mt.figure()
+    mt.scatter(data[data["FinalResult"] == 0]["FinalResult"], data[data["FinalResult"] == 0]["SleepHours"])
+    mt.scatter(data[data["FinalResult"] == 1]["FinalResult"], data[data["FinalResult"] == 1]["SleepHours"])
+    mt.xticks([0, 1], ["Fail", "Pass"])
+    mt.xlabel("Final Result")
+    mt.ylabel("Sleep Hours")
+    mt.title("Sleep Hours vs Final Result")
+    mt.show()
+    print(border)
+    print("""The result of correlation between FinalResult
+and Sleep Hours shows that - 
+1. Students who has slept more number of hours upto 8 has more probability
+of getting pass
+2. Students who has slept less number of hours has low probability
+of getting pass""")
+    
+def train_test_model(data):
+    model = DecisionTreeClassifier()
+    X = data[list(data.columns)[:5]]
+    Y = data['FinalResult']
+    X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.3,random_state=42)
+    model.fit(X_train,Y_train)
+
+    Y_pred = model.predict(X_test)
+    print(border)
+    print("Actual Values are : ")
+    print(border)
+    print(list(Y_test))
+    print(border)
+    print("Predicted result is : ")
+    print(border)
+    print(Y_pred)
+    calculate_accuracy(Y_pred,Y_test)
+
+def calculate_accuracy(Y_pred,Y_test):
+    accuracy = accuracy_score(Y_test,Y_pred)
+    print("Accuracy of model is : ",accuracy*100," %")
+
+def main():
+    data = load_csv()
+    if(data is not None):
+        data_analysis(data)
+        calculation_of_data(data)
+        checkData(data)
+        corelation(data)
+        histogram(data)
+        scatterplot(data)
+        boxplot(data)
+        correlationplot1(data)
+        correlationplot2(data)
+        train_test_model(data)
+
+if __name__ == "__main__":
+    main()
