@@ -1,6 +1,6 @@
 import pandas
 import matplotlib.pyplot as mt
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier,plot_tree
 from sklearn.metrics import (accuracy_score,confusion_matrix,classification_report,ConfusionMatrixDisplay)
 from sklearn.model_selection import train_test_split
 
@@ -129,10 +129,15 @@ of getting pass
 of getting pass""")
     
 def train_test_model(data):
-    model = DecisionTreeClassifier(max_depth=None)
+    # print(data["27"].values)
+    model = DecisionTreeClassifier(max_depth=3)
     X = data[list(data.columns)[:5]]
     Y = data['FinalResult']
-    X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.3,random_state=42)
+    X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.6,random_state=42)
+    print('''changing the random state value will change the training and testing data and it will affect the accuracy of model as well. So we can say that random state is one of the hyper parameter for decision tree model.
+random_state = 0 : Accuracy : changes every time we run the code
+random_state = 10 : Accuracy : changes every time we run the code
+random_state = 42 : Accuracy : 88.88''')
     model.fit(X_train,Y_train)
 
     X_train_pred = model.predict(X_train)
@@ -150,7 +155,11 @@ def train_test_model(data):
     # calculate_accuracy(X_train_pred,Y_train)
     print(border)
     print("Training Accuracy : ")
-    calculate_accuracy(Y_pred,Y_test)
+    mismatches = calculate_accuracy(Y_pred,Y_test)
+    print(border)
+    print("Students whose prediction got wrong : ")
+    for mismatch in mismatches:
+        print(data.iloc[[mismatch]])
     print(border)
     print("Training accuracy is greater than testing accuracy but not a major difeerence which overrules the overfitting and underfitting")
     print(border)
@@ -165,14 +174,19 @@ def train_test_model(data):
 def calculate_accuracy(Y_pred,Y_test):
     accuracy = accuracy_score(Y_test,Y_pred)
     acc_count = 0
+    textIndexes = Y_test.index
+    testMismatches = []
     Y_test = list(Y_test)
     for i in range(len(Y_test)):
         if Y_test[i]==Y_pred[i]:
             acc_count += 1
+        else:            
+            testMismatches.append(textIndexes[i])
     manually_accuracy = (acc_count / len(Y_test)) * 100
 
     print("Accuracy of model is (Inbuilt) : ",accuracy*100," %")
     print("Accuracy of model is (Manually) : ",manually_accuracy," %")
+    return testMismatches
 
 def calc_confusionmatrix(Y_pred,Y_test):
     print(border)
@@ -208,6 +222,13 @@ def feature_importance(model:DecisionTreeClassifier):
     # print("Prevoius score contributes most for predicting the result")
     # print("All others features contributes least for predicting the result")
 
+def treeVisulization(model:DecisionTreeClassifier):
+    print(border)
+    print("Tree Visulization - ")
+    mt.figure()
+    plot_tree(model, filled=True, feature_names=model.feature_names_in_, class_names=["Fail", "Pass"])
+    mt.show()
+
 def main():
     data = load_csv()
     if(data is not None):
@@ -230,6 +251,7 @@ def main():
     })
         test_model(model,test_data)
         feature_importance(model)
+        treeVisulization(model)
 
 if __name__ == "__main__":
     main()

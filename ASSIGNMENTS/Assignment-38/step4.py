@@ -1,4 +1,6 @@
 import pandas
+import matplotlib.pyplot as mt
+import seaborn as sns
 border = "-"*100
 
 def load_csv():
@@ -45,6 +47,11 @@ def checkData(data):
     print("Passed students percentage : ", ((((data["FinalResult"]==1).sum())/len(data))*100),"%")
     print("Failed students percentage : ", ((((data["FinalResult"]==0).sum())/len(data))*100),"%")
     print("Data is not balanced as passed percentage is grater than failed percentage")
+
+    mt.figure()
+    sns.countplot(x = data["FinalResult"])
+    mt.title("Distribution of Final Result to find dataset is balanced.")
+    mt.show()
     
 
 def main():

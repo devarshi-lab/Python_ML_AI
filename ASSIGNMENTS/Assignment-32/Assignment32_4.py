@@ -10,6 +10,10 @@ class DuplicateFilesInDirectory:
 
     def __init__(self,directory):
         self.Directory  = directory
+
+    def writeLog(self,Data):
+        Logger.writeLog(DuplicateFilesInDirectory.filename,Data)
+
     
     def validateDirectory(self):
         if(os.path.exists(self.Directory) and os.path.isdir(self.Directory)):
