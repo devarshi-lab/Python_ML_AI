@@ -150,6 +150,7 @@ def MarvellousAdvertise(DataPath):
 
     print("Intercept : ",model.intercept_)
 
+
     #----------------------------------------------
     # Step 12 : Compare the actual and predicted values
     #----------------------------------------------
@@ -164,22 +165,6 @@ def MarvellousAdvertise(DataPath):
         })
     
     print(Result.head())
-
-    #----------------------------------------------
-    # Step 13 : Plot actual vs predicted
-    #----------------------------------------------
-
-    print(Border)
-    print("Step 13 : Plot actual vs predicted")
-    print(Border)
-
-    plt.figure(figsize=(8,5))
-    plt.scatter(Y_test,Y_pred)
-    plt.xlabel("Actual sales")
-    plt.ylabel("Predicted sales")
-    plt.title("Actual sales vs Predicted sales")
-    plt.grid(True)
-    plt.show()
 
 def main():
     MarvellousAdvertise("Advertising.csv")
